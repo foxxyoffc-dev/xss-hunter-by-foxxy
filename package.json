@@ -1,0 +1,5 @@
+{
+  "name": "xss-hunter",
+  "version": "1.0.0",
+  "main": "api/hook.js"
+}
